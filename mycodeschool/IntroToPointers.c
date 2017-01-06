@@ -12,7 +12,7 @@ int main(void){
     
     
     
-    //printf("%d",p); //204 syntax error
+    //printf("%d",p); //204 syntax error, specifically if enabled compile error: http://i.imgur.com/KUib3ew.png
     printf("The memory address of a is: %p\n", (void*) &a); //204 
     printf("The memory address of a is: %p\n", (void*) &p); //64
     printf("%d\n",*p); //5 dereferencing
